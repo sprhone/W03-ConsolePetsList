@@ -75,5 +75,10 @@ public class PetsList {
 	public String returnPetDetails() {
 		return owner + ":" + type + ":" + name;
 	}
+
+	@Override
+	public String toString() {
+		return name + " the " + type + " owned by: " + owner;
+	}
 	
 }
